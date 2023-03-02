@@ -1,16 +1,16 @@
 public class GreatestNumber {
 
     public static void main(String[] args) {
-        int x = 14545;
+        int x = 1454905;
         int y = 19080;
-        int z = 206067;
+        int z = 2067;
 
-        //to check if x is greater
+        //to check if x is the greatest no.
         if (x>y) {
             if (x > z) {
                 System.out.println("The greatest number is " + x);
             }
-        //to check if y is greater
+        //to check if y is the greatest
         } else if (y>z) {
                 System.out.println("The greatest number is " + y);
             }

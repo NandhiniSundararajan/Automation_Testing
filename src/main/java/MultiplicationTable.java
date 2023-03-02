@@ -1,10 +1,9 @@
 public class MultiplicationTable {
 
     public static void main(String[] args) {
-        int num = 10;
-        int x;
+        int num = 5;
 
-        for (x = 0; x<=25 ; x++){
+        for (int x = 0; x<=25 ; x++){
             System.out.println(num + "x" + x + "=" + num * x);
         }
     }

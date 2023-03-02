@@ -1,6 +1,6 @@
 public class NoOfDigits {
     public static void main(String[] args) {
-        int i = 1234, digit = 0;
+        int i = 12345, digit = 0;
         while( i != 0 ){
             int j = i % 10;
             i = i / 10;
